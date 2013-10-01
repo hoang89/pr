@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="104dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingTop="2dp" >
+
+    <ImageView
+        android:id="@+id/k001_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/k001_image_square"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/d001_image_sample" />
+
+    <TextView
+        android:id="@+id/k001_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/k001_avatar"
+        android:background="@drawable/yellow_ribbon"
+        android:padding="3dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:id="@+id/time_k001"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/k001_name"
+        android:layout_toRightOf="@id/k001_avatar"
+        android:paddingLeft="2dp"
+        android:paddingTop="3dp" >
+
+        <TextView
+            android:id="@+id/k001_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/k001_name"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/k001_avatar"
+            android:padding="3dp"
+            android:text="2012.09.08(THU)"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/k001_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/k001_date"
+            android:layout_alignBottom="@+id/k001_date"
+            android:layout_alignRight="@+id/k001_name"
+            android:layout_toRightOf="@id/k001_date"
+            android:drawableLeft="@drawable/time_icon"
+            android:drawablePadding="5dp"
+            android:text="9.00Am~6.00Pm"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/k001_people"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/k001_avatar"
+        android:background="@color/k001_gray"
+        android:padding="3dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+</RelativeLayout>

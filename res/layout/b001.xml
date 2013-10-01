@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top_tab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_puripuri_logo" >
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_head_tab_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:paddingLeft="5dip"-->
+<!--            android:text="puripuri"-->
+<!--            android:textAppearance="?android:attr/textAppearanceLarge"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="24dp"-->
+<!--            android:textStyle="bold" />-->
+<!---->
+<!--        <TextView-->
+<!--            android:id="@+id/TextView01"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/tv_head_tab_name"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:paddingLeft="5dip"-->
+<!--            android:text="in FUKUI"-->
+<!--            android:textAppearance="?android:attr/textAppearanceLarge"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="10dp" />-->
+
+        <Button
+            android:id="@+id/b001_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/d001_back_button" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp" >
+
+        <Button
+            android:id="@+id/b001_to_b002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b001_button_grey"
+            android:text="今すぐ会員登録！"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/b001_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/b001_text_box"
+            android:ems="10"
+            android:hint="会員ID（メールアドレス）"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/b001_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/b001_text_box"
+            android:ems="10"
+            android:hint="パスワード"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:text="オートログイン"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/b001_remember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:background="@drawable/b001_slide_1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="オン"
+                android:textColor="@color/blue" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/b001_to_c001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/b001_button_black_2"
+            android:text="ログイン"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b001_o_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/b001_button_black_2"
+            android:text="オーナー様ログインはこちら"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

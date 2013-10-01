@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d014_bg_conor"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/d014_jobdate"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/d014_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d001_default"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_job_type" />
+
+        <TextView
+            android:id="@+id/d014_job_type"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_job_title" />
+
+        <TextView
+            android:id="@+id/d014_job_title"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_detail" />
+
+        <TextView
+            android:id="@+id/d014_detail"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_work_hour" />
+
+        <TextView
+            android:id="@+id/d014_work_hour"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_holiday" />
+
+        <TextView
+            android:id="@+id/d014_holiday"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_salary" />
+
+        <TextView
+            android:id="@+id/d014_salary"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_other" />
+
+        <TextView
+            android:id="@+id/d014_other"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/d014_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/d014_method" />
+
+        <TextView
+            android:id="@+id/d014_method"
+            style="@style/d014_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/d001_default" />
+    </LinearLayout>
+
+</LinearLayout>

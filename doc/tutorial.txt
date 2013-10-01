@@ -1,0 +1,11 @@
+D015Activity is map
+
+EventDetailEntity
+EventEntity
+ShopDetailEntity
+
+//truongvuong to do. history
+* H001Activity is map show list shop near by me
+	-> sua E001Activity // add action for button search
+	-> sua Manifest  // add H001Activity
+	-> sua JsonParser

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d001_shopinfosize">12sp</dimen>
+    <dimen name="d001_image_size">100dp</dimen>
+    <dimen name="d011_menu1_size">14dp</dimen>
+    <dimen name="d011_menu2_image_size">100dp</dimen>
+    <dimen name="d011_menu2_text_size">14sp</dimen>
+    <dimen name="d001_comment_text_size">14sp</dimen>
+    <dimen name="d001_active_text_size">14sp</dimen>
+    <dimen name="d001_inactive_text_size">12sp</dimen>
+    <dimen name="d013_title_size">13sp</dimen>
+    <dimen name="d13_content_size">12sp</dimen>
+    <dimen name="f001_text_size">14sp</dimen>
+    <dimen name="d001_tab_button_size">12sp</dimen>
+    <dimen name="a002_mergin">3dp</dimen>
+    <dimen name="e001_padding_left">10dp</dimen>
+    
+</resources>

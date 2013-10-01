@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="app_name">puripuri</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">PuriPuri</string>
+    <string name="e001_row1_1">キーワード・メッセージ</string>
+    <string name="e001_row1_2">指定なし</string>
+    <string name="e001_row2_1">エリア</string>
+    <string name="e001_row3_1">ジャンル</string>
+    <string name="e001_row4_1">時間</string>
+    <string name="e001_row5_1">クーポン</string>
+    <string name="e001_row6_1">その他条件</string>
+    <string name="e001_button_left">検索</string>
+    <string name="e001_button_right">条件クリア</string>
+    <string name="e001_orange_text">PICK UP!</string>
+    <string name="e002_title">キーワード</string>
+    <string name="e002_keyword_title">キーワード</string>
+    <string name="e002_keyword_label">キーワードを入力してください</string>
+    <string name="e002_message_title">メッセージ検索</string>
+    <string name="e002_message_label">お店のコメントから検索できます</string>
+    <string name="e003_title">エリア</string>
+    <string name="e003_3_area_label">ジャンル</string>
+    <string name="e003_area_label">エリア</string>
+    <string name="e005_title">時間</string>
+    <string name="e005_time_label">時間</string>
+    <string name="e006_title">その他条件</string>
+    <string name="e004_title">ジャンル</string>
+    <string name="e006_label">E006 Label</string>
+    <string name="d001_1_shoptitle">店舗詳細</string>
+    <string name="d001_des">Sau 3 vòng đấu đầu tiên tại Ngoại hạng Anh, Chelsea đang có sự khởi đầu thuận lợi với ngôi đầu bảng. Thậm chí, lịch thi đấu tại Champions League cũng đứng về phía The Blues. Theo kết quả bốc thăm, thầy trò Di Matteo nằm ở bảng đấu không có nhiều đối thủ quá mạnh. Dù vậy, để có thể gặt hái được những thành công vào cuối mùa giải 2012/2013, rõ ràng Chelsea cần phải vượt qua rất nhiều khó khăn trong khoảng thời gian tới trước Giáng sinh.\n\n19/9 Chelsea – Juventus (Champions League)\n\nThầy trò HLV Di Matteo sẽ bước vào chiến dịch bảo vệ chức vô địch Champions League với trận tiếp đón Juventus trên sân nhà Stamford Bridge. Kể từ năm 2009, 2 đội bóng hàng đầu của Anh và Italia chưa từng chạm trán nhau tại đấu trường này. Nhưng với sự trở lại mạnh mẽ trong thời gian gần đây của “Bà đầm già”  thành Turin, rõ ràng Chelsea khó lòng có được sự khởi đầu thuận lợi nhất.</string>
+    <string name="d001_comment_title">お店からのコメント</string>
+    <string name="d001_comment">新着コメント</string>
+    <string name="d001_info_title">基本情報</string>
+    <string name="d001_other_info">その他</string>
+    <string name="d001_services_title">設備＆サービス</string>
+    <string name="d001_image_title">ギャラリー</string>
+    <string name="d001_device_title">設備</string>
+    <string name="d001_services">サービス</string>
+    <string name="d001_ages">客層</string>
+    <string name="e001_row1_2_active">指定あり</string>
+    <string name="d001_tv_shopaddtit">住所</string>
+    <string name="d001_default"></string>
+    <string name="d001_faxtitle">FAX</string>
+    <string name="d001_time_title">営業時間</string>
+    <string name="d001_order_title">ラストオーダー</string>
+    <string name="d001_holidays_title">定体日</string>
+    <string name="d001_businesstime_title">平均予算</string>
+    <string name="d001_card_title">カード</string>
+    <string name="d001_parking_title">駐車場</string>
+    <string name="d001_home_page">ホームページ</string>
+    <string name="d001_seat_title">総座席数</string>
+    <string name="d001_tab1_title">基本情報</string>
+    <string name="d001_tab2_title">メニュー</string>
+    <string name="d001_tab3_title">イベント</string>
+    <string name="d001_tab4_title">クーポン</string>
+    <string name="d001_tab5_title">求人</string>
+    
+    <!-- http://code.google.com/android/maps-api-signup.html -->
+    <string name="map_debug">0YliaYEqaY3AwJgRkdBQyUqgfhufkXrx1SFTTKA</string>
+    <string name="map_release">0YliaYEqaY3Bi13cCkkXZGGN2bGu3_XEabByqdg</string>
+    <string name="d014_jobdate">掲載日:</string>
+    <string name="do14_job_type">【雇用形態】</string>
+    <string name="d014_job_title">【職種】</string>
+    <string name="d014_detail">【仕事内容】</string>
+    <string name="d014_work_hour">【勤務時間】</string>
+    <string name="d014_holiday">【休日】</string>
+    <string name="d014_salary">【給与】</string>
+    <string name="d014_other">【その他待遇】</string>
+    <string name="d014_method">【応募方法】</string>
+    <string name="d014_job_type">【雇用形態】</string>
+    <string name="g003_title">雇用形態</string>
+    <string name="error_mes">該当する情報はありません</string>
+    <string name="use_info">利用規約（必読）</string>
+    <string name="help"> puripuri (以下「本サービス」とします)では、本サービスをご利用になるお客様(以下「お客様」とします)のプライバシーを尊重し、お客様の個人情報(以下の定義に従います)の管理に注意を払い、これを取扱うものとします。\n
+	\n第1条「規約適用」\n
+
+	\n１：本規約は、GreenBanana（以下「当社」といいます。）が管理・運営を行
+	い、日本国内に居住する者に対して提供するインターネット上の情報検索
+　　アプリ「puripuri」（以下「本アプリ」といいます。）および各種情報提
+　　供サービスの利用者（本アプリ上で新規ユーザー登録を行ったユーザーの
+　　方も含まれます。以下、同様とします。）の皆様に対して適用されます。\n
+
+	\n２：本規約の内容は、必要に応じて変更することがありますので、本アプリを
+　　ご利用の際には上に掲載されている最新の利用規約をご確認下さい。\n
+
+	\n３：利用者の皆様が、本サービスを利用したことをもって本規約に同意したも
+　　のとみなします。</string> 
+
+</resources>

@@ -1,0 +1,132 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csn.puripuri"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="SplashScreenOne"
+            android:label="@string/title_activity_main"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="A002Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="E001Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="E002Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="E003Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="F001Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".E005Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="E004Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="E006Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".D001Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ImageViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="D015Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="G001Activity" >
+        </activity>
+        <activity android:name="G002Activity" >
+        </activity>
+        <activity android:name="G003Activity" >
+        </activity>
+        <activity android:name="G004Activity" >
+        </activity>
+        <activity android:name="G005Activity" >
+        </activity>
+        <activity android:name="K001Activity" >
+        </activity>
+        <activity android:name="K002Activity" >
+        </activity>
+        <activity android:name="B001Activity" >
+        </activity>
+        <activity android:name="B002Activity" >
+        </activity>
+        <activity android:name="B003Activity" >
+        </activity>
+        <activity android:name="B004Activity" >
+        </activity>
+        <activity android:name="A001Activity" >
+        </activity>
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity android:name="A003Activity" >
+            <intent-filter>
+                
+                <category android:name="android.intent.category.DEFAULT" />
+                
+                <action android:name="android.intent.action.VIEW" />
+                
+                <data android:scheme="puripuri_link" />
+            
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="SplashScreenTwo"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="H001Activity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity android:name="C001Activity" >
+        </activity>
+        <activity android:name="G006Activity" >
+        </activity>
+        <activity android:name="C004Activity"></activity>
+        <activity android:name="C005Activity"></activity>
+    </application>
+
+</manifest>
